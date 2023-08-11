@@ -87,6 +87,17 @@ copyText7.querySelector("button").addEventListener("click",function(){
         copyText7.classList.remove("active");
     },2500);
 });
+let copyText8 = document.querySelector(".copy-text8");
+copyText8.querySelector("button").addEventListener("click",function(){
+    let input = copyText8.querySelector("input.text8");
+    input.select();
+    document.execCommand("copy");
+    copyText8.classList.add("active");
+    window.querySelector().removeAllranges();
+    setTimeout(function(){
+        copyText8.classList.remove("active");
+    },2500);
+});
 
 
 
