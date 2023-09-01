@@ -54,6 +54,7 @@ copyText4.querySelector("button").addEventListener("click",function(){
         copyText4.classList.remove("active");
     },2500);
 });
+
 let copyText5 = document.querySelector(".copy-text5");
 copyText5.querySelector("button").addEventListener("click",function(){
     let input = copyText5.querySelector("input.text5");
@@ -65,6 +66,7 @@ copyText5.querySelector("button").addEventListener("click",function(){
         copyText5.classList.remove("active");
     },2500);
 });
+
 let copyText6 = document.querySelector(".copy-text6");
 copyText6.querySelector("button").addEventListener("click",function(){
     let input = copyText6.querySelector("input.text6");
@@ -76,28 +78,7 @@ copyText6.querySelector("button").addEventListener("click",function(){
         copyText6.classList.remove("active");
     },2500);
 });
-let copyText7 = document.querySelector(".copy-text7");
-copyText7.querySelector("button").addEventListener("click",function(){
-    let input = copyText7.querySelector("input.text7");
-    input.select();
-    document.execCommand("copy");
-    copyText7.classList.add("active");
-    window.querySelector().removeAllranges();
-    setTimeout(function(){
-        copyText7.classList.remove("active");
-    },2500);
-});
-let copyText8 = document.querySelector(".copy-text8");
-copyText8.querySelector("button").addEventListener("click",function(){
-    let input = copyText8.querySelector("input.text8");
-    input.select();
-    document.execCommand("copy");
-    copyText8.classList.add("active");
-    window.querySelector().removeAllranges();
-    setTimeout(function(){
-        copyText8.classList.remove("active");
-    },2500);
-});
+
 
 
 

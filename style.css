@@ -14,6 +14,15 @@
   .tabs1{
      background-color:#1a1600 !important;
   }
+  .logo{
+    color:#4d001f;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: #ffb3d1 1px 1px 8px;
+    text-decoration: none;
+   }
   .form-control{
     border: black 1px solid;
     padding: 10px;
@@ -281,13 +290,11 @@
       color: #fff;
   }
   .h3a{
-      text-align: center;
-      font-weight: 700;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-shadow: #ffd700 1px 1px 8px;
-      font-size: small;
-      margin-top: 10px;
-      color: white;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+    font-size: small;
+     
   }
   .card1{
       background-color: #fffbe6;
@@ -1604,12 +1611,9 @@
   
   
   .h3a{
-      text-align: center;
-      font-weight: 700;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-shadow: #ffd700 1px 1px 8px;
-      font-size: medium;
-      color: white;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
   }
   
   .card1{
